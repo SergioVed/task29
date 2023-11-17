@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="button.css" />
+
 export const Button = (props) => {
 
     return(

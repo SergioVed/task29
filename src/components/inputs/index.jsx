@@ -1,8 +1,7 @@
-export const Input = (props) => {
-    function handleInputChange{index}(props) {
-        
-    }
+<link rel="stylesheet" href="input.css" />
+
+export const Input = ({inputValue, handleInputChange, placeholder}) => {
     return(
-        <input onChange={handleInputChange`${props.index}`}></input>
+        <input value={inputValue} onChange={(event) => handleInputChange(event.target.value)} placeholder={placeholder} type="text"></input>
     )
 }
